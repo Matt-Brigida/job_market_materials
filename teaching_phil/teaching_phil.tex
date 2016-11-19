@@ -1,0 +1,43 @@
+\documentclass[12pt]{article}
+\usepackage[hidelinks]{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\pagestyle{empty}
+\begin{document}
+\begin{center}
+{\bf Statement of Teaching Philosophy} \\
+Matthew Brigida, Ph.D.
+\end{center}
+\vspace*{1cm}
+I have put a great deal of creative and careful thought into my teaching methods and innovations, and have been very successful as is shown by both my teaching evaluations and appointment as a Financial Education Advisor to the Milken Institute Center for Financial Markets.  My teaching methodology focuses on encouraging hands-on application, immediately following each conceptual topic learned. My courses are thus engaging, interactive, data-driven, and focused on imparting technical skills while also learning core concepts in finance.  This methodology ultimately turns financial markets into a testing ground for the various theories students learn.  
+
+To foster this approach I started creating interactive presentations and lecture notes, which are now showcased in the \href{https://5MinuteFinance.org}{\color{Blue}{5MinuteFinance.org}} website sponsored by the Milken Institute.  These presentations take every concept students learn off the static page and makes them interactive, often employing real financial market data. For example, we have all seen how duration approximates the relationship between yield and a bond's price in a textbook, but in \href{https://micfm.shinyapps.io/intro_duration/}{\color{Blue}{this presentation (slide 8)}} you can see duration in 3 dimensions, move the 3D surface around with your mouse to get a better view, and change yield, coupon, and maturity as see how the duration approximation changes.  \href{https://micfm.shinyapps.io/convexity/}{\color{Blue}{Here}} you can see how convexity is affected by underlying variables.
+
+As a further example, in my Portfolio Theory course students learn the theory underlying Markowitz optimization, the CAPM and APT, and index models. They then immediately investigate, with real data, statements such as, `the average alpha across many firms is zero', `research has found low-beta (high-beta) stocks have positive (negative) alphas', or `Markowitz optimization is very sensitive to input parameters'.  Importantly, the interactive applications I write work for any security, so students can search markets for counterexamples to, or support for, canonical results.
+
+%To enable students to easily gather and analyze data, I write code which links tools such as $Excel$ and the $R$ programming language, to various data sources and APIs.  For example, students can access data on exchange listed stock, options, futures, and currencies though \href{https://interactivebrokers.com}{\color{Blue}{Interactive Brokers}} accounts with up to a 5 second interval frequency.  
+
+I have also published software (R package) called \href{https://cran.r-project.org/web/packages/EIAdata/index.html}{\color{Blue}{EIAdata}} which provides programmatic access from R to the \href{http://www.eia.gov/beta/api/index.cfm}{\color{Blue}{EIA's API}}.  This makes available 408,000 electricity, 115,052 petroleum, and 11,989 natural gas series.  While I created the package mainly for teaching and research purposes, it is also widely used among businesses, investment funds, and the US Federal Government.  I regularly receive emails from these users asking questions and for feature additions.  Since I make this software freely available, a couple users have even contributed features to the package.
+
+%The code not only gathers the data, but automates a particular calculation of interest in the lecture.  For example, a function may download stock prices, convert them into returns, break them up into 30 day intervals, estimate the market model over each interval and return a time series of alpha and beta coefficients.  This frees students to focus on the concepts (like time-varying parameters), rather than data handling and manipulation tasks.  It also motivates students to learn how to interact with various data sources/formats and large data sets. My code is often posted here: \href{http://complete-markets.com}{\color{Blue}{complete-markets.com}}.  
+
+I have also created $PostgreSQL$ databases of all Fannie and Freddie loan-level files (~200GB), as well as electricity and FTR option prices.  These databases are useful when teaching about mortgage markets, and real and financial options.  Students can access the database using the $SQL$ language (often within $SAS$, $R$, or $Excel$), which is widely used within financial institutions.  
+
+Integral to my teaching method is to actively seek feedback from students during lectures.  This allows me to tailor the lecture topic and speed to the background of the students in the class. Since I teach both in class and online, I have learned to employ this interactive method also in a distance education setting.  
+
+I have also recorded many mini-lectures (15 minute maximum length) and posted them on \href{https://www.youtube.com/channel/UCwekb0vAK-FKaqPF5gfd0eQ}{\color{Blue}{my YouTube channel.}} I limit them to 15 minutes so students can easily find the topic in which they are interested.  I found if I post 2 hour lectures online, they spend too much time searching the lecture for a particular topic.  Also, because the videos are posted freely online, alumni can come back for a refresher on a concept (often before taking the Series 63 or CFA exams).  This helps keep me engaged with alumni, which provides job contacts for present students.  
+
+My teaching methodology has ultimately been successful, as evidenced by ETS test results and positive student feedback in teaching evaluations.  The hands-on applications with real data engages students, the videos provide lectures at their fingertips, and keeps them interested in finance and motivated to learn more. \\
+\\
+\\
+Best regards,\\
+\\
+\\
+Matthew Brigida, Ph.D.\\
+Associate Professor of Finance\\
+Clarion University of Pennsylvania
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
